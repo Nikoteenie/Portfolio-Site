@@ -1,0 +1,102 @@
+:root {
+  --text-color: #fd7bd2;
+  --text-hover:  #007bff;
+}
+
+body {
+  margin: 60px auto;
+  max-width: 500px;
+  background: url(../images/small_pattern-01.png);
+  background-size: 20% ;
+  background-repeat: repeat;
+  
+}
+.container{
+  background-color: rgba(255,255,255,.9);
+padding: 40px;
+}
+#outside-links {
+  text-align: right;
+  font-size: 20px;
+}
+
+#shop{
+  color:var(--text-color);
+}
+
+#shop:hover{
+  color:var(--text-hover);
+}
+
+#ig{
+  color:var(--text-color);
+}
+
+#ig:hover{
+  color:var(--text-hover);
+}
+
+#tik {
+  color:var(--text-color);
+}
+
+#tik:hover{
+  color:var(--text-hover);
+}
+
+.name {
+  text-align: right;
+  margin-bottom: 0px;
+}
+
+.nikoteenie {
+  font-size: 18px;
+  margin-bottom: 0px;
+}
+
+.nicole {
+  font-size: 55px;
+  margin-bottom: 0px;
+}
+
+.bio {
+  font-size: 15px;
+  margin-left: 100px;
+  padding: 0px;
+text-align: right;
+  margin-bottom: 10px;
+}
+
+.portfolio-links {
+  font-size: 25px;
+  text-align: right;
+  margin-left: 170px;
+  margin-bottom: 10px;
+
+
+}
+
+li {
+  list-style: none;
+}
+
+#email {
+  text-align: right;
+  color: #007bff;
+ 
+}
+
+#email-link {
+  color: var(--text-color);
+}
+
+#email-link:hover{
+  color:var(--text-hover);
+}
+
+#credit {
+  font-size: 10px;
+  text-align: center;
+   background: rgba(255,255,255,.9);
+  
+}
